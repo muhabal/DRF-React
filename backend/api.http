@@ -1,0 +1,13 @@
+GET http://localhost:8000/api/notes/ 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzc5ODI2NzA0LCJpYXQiOjE3Nzk4MjQ5MDQsImp0aSI6IjU5NzI5NmIxZjFmMTQzZWVhNThlNDE5MTMzYzc2MjdlIiwidXNlcl9pZCI6IjEifQ.H6cU1t4GlTs_-WIBpmOA79gqDMtGvqWgSQyqHkNTE3o
+
+
+###
+POST http://localhost:8000/api/notes/ 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzgwMDg5MjgwLCJpYXQiOjE3ODAwODc0ODAsImp0aSI6Ijk3NjkxY2MxNTlmMTQwY2RhMzNmYmNlMGZlYmQ5ODkzIiwidXNlcl9pZCI6IjMifQ.fVuhxcXFIRjvY-BTboWl-3brVXUouLXG0nugl_ud89M
+Content-Type: application/json
+
+{
+  "title": "DRF React tutorial 2",
+  "content": "Hello guys, i have just created an api for creating notes using django rest framework part"
+}

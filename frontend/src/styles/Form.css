@@ -1,0 +1,33 @@
+.form-container{
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px;
+  background: rgb(2, 2, 39);
+  color: white;
+  max-width: 500px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container h1{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-input{
+  border: none;
+  border-radius: 8px;
+  background: white;
+  padding: 8px 10px;
+  font-size: small;
+}
+
+.form-button{
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
